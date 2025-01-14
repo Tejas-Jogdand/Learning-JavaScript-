@@ -1,5 +1,8 @@
 const prompt = require("prompt-sync")();
 
+// const promptSync = require("prompt-sync"); // Import the module
+// const prompt = promptSync(); // Initialize the prompt function
+
 
 let a = prompt("Hey, what is your age?"); //promt accept input in string formate 
 

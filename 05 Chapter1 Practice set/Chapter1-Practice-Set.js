@@ -23,11 +23,15 @@ const item={
 //Q4
 console.log(item);
 
-item['quantity']=5;
-
+item['quantity']=5; // this way you can add/edit string keys to objects
+item.category = "Electronic gadeget";  // this way you can add/edit varible keys to objects
+console.log(item);
+item.name="Mobile";
 console.log(item);
 
 // you can add and alter keys in objects 
+// Objects are mutable 
+// Use Object.freeze() to make an object truly immutable
 
 //Q5
 
@@ -38,3 +42,12 @@ const dict = {
     Rahul:"His nickname",
     Aman:"Her hobby"
 }
+dict.Tejas="Hello";
+dict.Rahul="Hello rahukl";
+
+Object.freeze(dict);
+
+// dict.Rahul="Hello rahukl";
+dict.Raj="Hello";
+
+console.log(dict);
