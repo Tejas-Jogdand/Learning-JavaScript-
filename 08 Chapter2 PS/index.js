@@ -1,4 +1,8 @@
 // chapter 2 
+
+// Use Number.parseInt when you need to convert the input to an integer.
+// If you skip it, the input will remain a string, which can lead to incorrect results in arithmetic operations.
+// For floating-point inputs, use Number() or parseFloat().
 // Q1
 const prompt = require("prompt-sync")();
 
