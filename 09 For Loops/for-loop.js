@@ -28,5 +28,5 @@ for(let a in obj){
 // For of loop
 // it iterates array and string.... not object
 for(let b of "Tejas"){
-    console.log(a);
+    console.log(b);
 }
