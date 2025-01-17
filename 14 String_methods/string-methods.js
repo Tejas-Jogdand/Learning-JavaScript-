@@ -10,7 +10,7 @@ console.log(myname.toLowerCase());
 console.log(myname.slice(2,4)); //  2 se le kar 3 tak ke char
 console.log(myname.slice(2)); // 2 ke baad sare
 
-console.log(myname.replace("T","N"));
+console.log(myname.replace("T","A"));
 
 console.log(myname.concat(" is a good guy."));
 

@@ -40,12 +40,13 @@ for(let a in arr){
 }
 
 // When to Use Which?
-// Use for...of:
+// 1.Use for...of:
 
 // When working with arrays and iterable objects.
 // You want to access the actual values of the elements.
 // Cleaner and more readable for arrays.
-// Use for...in:
+
+// 2.Use for...in:
 
 // When working with objects (not arrays).
 // You need to iterate over object property keys.
