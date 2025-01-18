@@ -13,12 +13,6 @@ console.log(typeof d);
 
 // Objects   non premitive datatype
 
-const item = {
-    "Tejas": true,
-    "Rohan": 63,
-    "love": false
-}
-
 let person = {
     name : "Tejas",
     age : 21
@@ -31,12 +25,20 @@ console.log(person,"\n");
 console.log(person2);
 console.log();
 
+const item = {
+    "Tejas": true,
+    "Rohan": 63,
+    "love": false
+}
 
 if("Roh" in item){
     console.log(item["Roh"]);
 }
 else{
-    console.log("key not found");
+    item["Roh"]=1;
+    item["Roh"]++;
+    console.log("key not found but now added");
+    console.log(item);
 }
 
 console.log(item["Rohan"]);
