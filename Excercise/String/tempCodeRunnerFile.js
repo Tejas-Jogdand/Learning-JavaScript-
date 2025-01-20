@@ -1,9 +1,5 @@
-const obj = {};
-const key1 = Symbol("key");
-const key2 = Symbol("key");
-
-obj[key1] = "value1";
-obj[key2] = "value2";
-
-console.log(obj);
-console.log(typeof key1);
+for (const ele of str) {
+    //     longest = str[ele];
+    //     if (str[ele].length < str[ele+1].length)
+    //         longest = str[ele+1];
+    // }
