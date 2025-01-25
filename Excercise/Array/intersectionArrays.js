@@ -1,5 +1,5 @@
 // Write a function that accepts two arrays of numbers and returns a new array containing only 
-// the elements that are present in both arrays (intersection of two arrays).
+// the elements that are present in both arrays (intersection of two arrays)
 const prompt = require('prompt-sync')();
 
 function intersectionArrays(arr1,arr2){
