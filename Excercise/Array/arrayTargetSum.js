@@ -3,6 +3,7 @@
 //Example: findPairs([1, 2, 3, 4, 5], 6);
 //Output:[[1, 5], [2, 4]]
 
+
 const prompt = require('prompt-sync')();
 
 function pairsTargetsum(arr, targetSum){
